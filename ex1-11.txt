@@ -1,0 +1,3 @@
+Exercise 1-11. How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any.
+
+Test it by inputting words using spaces, tabs, and new lines. I think a backslash would be likely to uncover bugs. Try with literal \t and \n in the input to see how it treats those (it should treat them as normal characters not escape sequences).
